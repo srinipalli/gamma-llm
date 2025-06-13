@@ -1,6 +1,6 @@
 import google.generativeai as genai
 import sys
-
+# my name is pranav
 # Credentials and model setup
 GEMINI_API_KEY = "AIzaSyBBh6qma7uR8pJdBOEGHOu1HOTEsyb0Xks"
 
