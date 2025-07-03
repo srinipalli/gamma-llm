@@ -9,7 +9,7 @@ if not GEMINI_API_KEY:
     sys.exit(1)
 
 genai.configure(api_key=GEMINI_API_KEY)
-gemini_model = genai.GenerativeModel('gemini-1.5-flash-latest')
+gemini_model = genai.GenerativeModel('gemini-2.0-flash')
 
 def get_gemini_analysis(full_prompt_string: str) -> str:
     if not gemini_model:
